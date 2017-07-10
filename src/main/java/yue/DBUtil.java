@@ -6,7 +6,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 public class DBUtil {
-	
+	//main
 	public static void main(String[] args) throws IOException {
 		Reader r = Resources.getResourceAsReader("Configuration.xml");
 		SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
